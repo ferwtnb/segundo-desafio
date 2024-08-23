@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <nav id="principal">
+
+        <div id="menu">
+            <a href="">Home</a>
+            <a href="">Ultimas Edições</a>
+            <a href="">Requisitos para Participar</a>
+
+
+        </div>
+        <div id="botao">
+
+            <button>Login</button>
+
+        </div>
+    </nav>
+
+    <section>
+        <header>
+            <h1>BOOTCAMP DNC</h1>
+            <h2>Esse será um evento exclusivo para todos os alunos<br>
+                da DNC, que querem <span class="fundoletra">acelerar a carreira</span> com uma<br>
+                semana intensiva de conteúdo de mercado entre<br>
+                <span class="fundoletra">BACK-END, FRONT-END & BANCO DE DADOS.</span>
+            </h2>
+        </header>
+        <form action="https://formspree.io/f/mldrogqa" method="POST">
+            <div class="form-group">
+
+                <label>Nome:</label>
+                <input type="text" placeholder="Insira seu nome aqui" name="name">
+            </div>
+            <div class="form-group">
+
+                <label>Sobrenome:</label>
+                <input type="text" placeholder="Insira seu sobrenome aqui" name="surname" required>
+            </div>
+            <div id="check-box" class="form-group">
+
+                <label>Area de interesse:</label>
+                <div class="checkitens">
+                    <input type="radio" name="area" value="front-End" required>
+                    <label>Front-End</label>
+
+                    <input type="radio" name="area" value="back-end">
+                    <label> Back -End</label>
+
+                    <input type="radio" name="area" value="bando de dados">
+                    <label>Banco de dados</label>
+                </div>
+
+            </div>
+            <div class="form-group">
+
+                <label>Email:</label>
+                <input type="email" placeholder="Insira seu email aqui" name="email" required>
+
+            </div>
+            <div class="form-group">
+
+                <label>Telefone:</label>
+                <input type="number" placeholder="(99)99999-9999" name="Phone" required>
+            </div>
+            <div class="form-group">
+
+                <label>Insira uma frase criativa aqui:</label>
+                <input type="text" placeholder="Qual frase criativa você gostaria de falar?  " name="Opnion" required>
+            </div>
+            <Button type="submit">CADASTRAR</Button>
+
+
+
+        </form>
+    </section>
+
+    <footer>
+
+        <div class="linha1">
+
+            <nav>
+                <h5>Escola</h5>
+                <ul>
+
+                    <li><a href>Formação em Tecnologia</a></li>
+                    <li><a href>Formação em Marketing</a></li>
+                    <li><a href="">Formação em Dados</a></li>
+                    <li><a href="">Formação de Projetos</a></li>
+                    <li><a href="">formaçao em Produtos</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <h5>Sobre DNC</h5>
+                <ul>
+                    <li><a href="">Historia</a></li>
+                    <li><a href="">Missao e Valores</a></li>
+                    <li><a href="">Trabalhe Conosco</a></li>
+                    <li><a href="">Conteudo Gratuito</a></li>
+
+                </ul>
+            </nav>
+
+
+            <div class="endereço">
+                © 2022 DTC Treinamentos & Consultoria LTDA | CNPJ: 27.995.577/0001-37 | R. Justino Cobra, 61 – Vila
+                Ema
+                | São José dos Campos – SP | CEP 12243-030
+            </div>
+        </div>
+        <div class="linha2">
+
+            <a href="">Termos de Uso</a>
+            <a href="">Politica de Privacidade</a>
+        </div>
+
+        </div>
+
+
+
+
+    </footer>
+</body>
+
+</html>
